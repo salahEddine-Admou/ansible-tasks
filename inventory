@@ -1,7 +1,8 @@
 [webserver]
-web01 ansible_host=ec2-98-84-20-150.compute-1.amazonaws.com ansible_user=ubuntu ansible_ssh_private_key_file=target-key1.pem ansible_python_interpreter=/usr/bin/python3
-web02 ansible_host=98.83.34.156 ansible_user=ubuntu ansible_ssh_private_key_file=target-key2.pem ansible_python_interpreter=/usr/bin/python3
+web01 ansible_host=13.36.235.53 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/target-1.pem
+web02 ansible_host=13.36.235.250 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/target-1.pem
 
 [webserver]
 web01
 web02
+
